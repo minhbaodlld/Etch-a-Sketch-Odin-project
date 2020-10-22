@@ -1,0 +1,35 @@
+:root{
+    --sketch:#f7f7f7;
+}
+
+body{
+    text-align: center;
+    margin: none
+}
+
+#btn{
+    font-size: 18px;
+    margin: 10px;
+
+}
+
+#container{
+    width: 160px; /*700px*/
+    height: 160px; /*700px*/
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    margin: auto;
+}       
+
+#container div{
+    width: 10px; /*43.75px;*/
+    height: 10px; /*43.75px;*/
+    background-color:var(--sketch);
+}
+
+.box{
+    width: 10px; /*43.75px;*/
+    height: 10px; /*43.75px;*/
+    background-color:var(--sketch);
+}
