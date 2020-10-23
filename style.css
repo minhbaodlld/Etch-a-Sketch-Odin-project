@@ -1,35 +1,47 @@
 :root{
-    --sketch:#f7f7f7;
+    --sketch:#eeebeb;
 }
 
 body{
     text-align: center;
-    margin: none
+    margin: none;
+    background-color: teal;
+    background-image: url(sketching.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #btn{
     font-size: 18px;
-    margin: 10px;
+    font-weight: 600;
+    margin: 30px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(219, 223, 222);
+    transition-duration: 1s ;
+}
 
+#btn:hover{
+    background-color: rgb(124, 222, 235);
+    transition-duration: 1s;
+    color: rgb(255, 0, 0)
 }
 
 #container{
-    width: 160px; /*700px*/
-    height: 160px; /*700px*/
+    width: 600px; /*700px*/
+    height: 600px; /*700px*/
     display: flex;
     flex-wrap: wrap;
     background-color: blue;
     margin: auto;
+    border: 2px solid black;  
 }       
 
 #container div{
-    width: 10px; /*43.75px;*/
-    height: 10px; /*43.75px;*/
     background-color:var(--sketch);
 }
 
-.box{
-    width: 10px; /*43.75px;*/
-    height: 10px; /*43.75px;*/
+/*.box{
+    width: 10px; 43.75px;
+    height: 10px; 43.75px;
     background-color:var(--sketch);
-}
+}*/
